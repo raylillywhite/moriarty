@@ -32,6 +32,9 @@
 @property (nonatomic) CGFloat frameWidth;
 @property (nonatomic) CGFloat frameHeight;
 
+
+- (void)roundFrame;
+
 // Methods for centering.
 - (void)addCenteredSubview:(UIView *)subview;
 - (void)moveToCenterOfSuperview;
