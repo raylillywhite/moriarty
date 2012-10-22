@@ -107,4 +107,9 @@
 	self.frameX = (int)((self.superview.bounds.size.width - self.frameWidth) / 2);
 }
 
+- (void)alignVerticallyWithPeer:(UIView *)peer
+{
+    self.frameY = round(CGRectGetMidY(peer.frame) - self.bounds.size.height / 2);
+}
+
 @end
