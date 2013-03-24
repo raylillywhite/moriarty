@@ -112,4 +112,9 @@
     self.frameY = round(CGRectGetMidY(peer.frame) - self.bounds.size.height / 2);
 }
 
+- (void)alignHorizontallyWithPeer:(UIView *)peer
+{
+    self.frameX = round(CGRectGetMidX(peer.frame) - self.bounds.size.width / 2);
+}
+
 @end

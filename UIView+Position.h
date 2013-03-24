@@ -40,6 +40,8 @@
 - (void)moveToCenterOfSuperview;
 - (void)centerVerticallyInSuperview;
 - (void)centerHorizontallyInSuperview;
+
 - (void)alignVerticallyWithPeer:(UIView *)peer;
+- (void)alignHorizontallyWithPeer:(UIView *)peer;
 
 @end
