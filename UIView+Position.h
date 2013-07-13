@@ -29,6 +29,9 @@
 @property (nonatomic) CGFloat frameRight;
 @property (nonatomic) CGFloat frameBottom;
 
+@property (nonatomic) CGFloat centerX;
+@property (nonatomic) CGFloat centerY;
+
 @property (nonatomic) CGFloat frameWidth;
 @property (nonatomic) CGFloat frameHeight;
 
