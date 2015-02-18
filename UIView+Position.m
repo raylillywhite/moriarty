@@ -101,7 +101,7 @@
 
 - (void)roundFrame {
     self.frame = CGRectMake(roundf(self.frame.origin.x), roundf(self.frame.origin.y),
-                            roundf(self.frame.size.width), roundf(self.frame.size.height));
+                            ceilf(self.frame.size.width), ceilf(self.frame.size.height));
 }
 
 - (void)addCenteredSubview:(UIView *)subview {
